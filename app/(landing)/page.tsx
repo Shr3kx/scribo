@@ -2,7 +2,6 @@ import { LandingNavbar } from "./_components/navbar";
 import {
   LandingHero,
   LandingFeatures,
-  LandingTestimonials,
   LandingPricing,
   LandingFAQ,
 } from "./_components/heading";
@@ -15,7 +14,6 @@ const LandingPage = () => {
       <main className="flex-1 flex flex-col justify-center items-center w-full">
         <LandingHero />
         <LandingFeatures />
-        {/* <LandingTestimonials /> */}
         <LandingPricing />
         <LandingFAQ />
       </main>
